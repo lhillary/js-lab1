@@ -16,7 +16,7 @@
     }
 
     function getDamage() {
-        return Math.floor(Math.random() * 5) + 1;
+        return Math.floor((Math.random() * 5) + 1);
     }
 
         function startCombat() {
